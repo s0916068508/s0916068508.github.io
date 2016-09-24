@@ -1,0 +1,588 @@
+
+/*導覽列*/
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #ededed;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+/*導覽列容器設定*/
+
+.nav-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/*導覽列的連結（字跟logo）*/
+
+nav a  {
+    list-style: none;
+    color: #666;
+    text-decoration: none;
+    height: auto;
+}
+
+.nav-logo {
+    margin-top: 10px;
+    font-size: 20px;
+    float: left;
+    line-height: 80px;
+    font-family: serif;
+}
+
+
+/*導覽列的選項設定*/
+
+.nav-item {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    height: 80px;
+}
+
+nav li {
+    float: left;
+    left: 120px;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 80px;
+    text-align: center;
+}
+
+nav a:hover {
+    color:black
+}
+
+
+/*文章區塊9塊設定*/
+
+section {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/*文章區塊one_區塊設定*/
+
+.section-one {
+    width: 100%;
+    height: 1000px;
+    float: left;
+    background-image: url(../img/photo-1443527216320-7e744084f5a7.jpg);
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+/*文章區塊one＿文字設定*/
+
+.section-one h1 {
+    font-size: 55px;
+}
+
+.section-one p {
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+
+/*文章區塊one buttons設定*/
+
+.section-one-buttons {
+    margin: 200px auto;
+    width: 23%;
+}
+
+.section-button-one-read_more {
+    font-size: 13px;
+    margin: 5px;
+    width: 125px;
+    border: 3px solid white;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    float: left;
+}
+
+.section-button-two-download_now {
+    font-size: 13px;
+    margin: 3px;
+    background-color: #9a77f8;
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    float: left;
+}
+
+.section-button-one-read_more a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.section-button-two-download_now a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+
+
+
+
+
+/*文章區塊two buttons設定*/
+
+.section-two {
+    width: 100%;
+    height: 500px;
+    clear: both;
+    padding-top: 150px;
+    color: #575757;
+    font-family: sans-serif;
+}
+
+.section-two-container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.section-two-photo img {
+    width: 50%;
+    float: left;
+}
+
+.section-two-word {
+    height: 300px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.section-two-word h1 {
+    font-size: 20px;
+    padding-bottom: 20px
+}
+
+.section-two-word p {
+    font-size: 12px;
+}
+
+.section-two-buttons {
+    font-size: 12px;
+    background-color: #9a77f8;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    left: 230px;
+}
+
+.section-two-buttons a {
+    color:white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+
+/*文章區塊three buttons設定*/
+
+.section-three {
+    width: 100%;
+    height: 800px;
+    clear: both;
+    padding-top: 150px;
+    color: #575757;
+    font-family: sans-serif;
+    background-color: #d3d3d3;
+}
+
+.section-three-container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.section-three-photos img{
+    width: 50%;
+    float: right;
+}
+
+.section-three-word {
+    height: 380px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 200px;
+}
+
+.section-three-word h1 {
+    font-size: 20px;
+    padding-bottom: 20px
+}
+
+.section-three-word p {
+    font-size: 12px;
+}
+
+.section-three-button {
+    font-size: 12px;
+    background-color: #9a77f8;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    left: 230px;
+}
+
+.section-three-button a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+
+/*文章區塊four buttons設定*/
+
+.section-four {
+    width: 100%;
+    height: 600px;
+    float: left;
+    padding-top: 250px;
+    background-image: url(../img/photo-1452723312111-3a7d0db0e024.jpg);
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.section-four h1 {
+    font-size: 50px;
+}
+
+.section-four p {
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 30px;
+    width: 60%;
+}
+
+.section-four-buttons {
+    font-size: 12px;
+    background-color: #9a77f8;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    left: 600px;
+}
+
+.section-four-buttons a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+
+/*文章區塊five buttons設定*/
+
+.section-five {
+    width: 100%
+    height: 1005px;
+    float: left;
+    padding-top: 250px;
+    text-align: center;
+    padding-top: 150px;
+    color: #525252;
+    font-family: sans-serif;
+}
+
+.section-five-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-five h1 {
+    font-size: 30px;
+}
+
+.section-five p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.section-five-button {
+    font-size: 12px;
+    background-color: #9a77f8;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    left: 400px;
+}
+
+
+.section-five-button a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.section-five-photo img {
+    width: 90%;
+    padding-top: 100px;
+}
+
+
+/*文章區塊six buttons設定*/
+
+.section-six {
+    width: 100%;
+    height: 1265px;
+    float: left;
+    background-color: black;
+    padding-top: 250px;
+    text-align: center;
+    padding-top: 150px;
+    color:white;
+    font-family: sans-serif;
+}
+
+.section-six h1 {
+    font-size: 30px;
+}
+
+.section-six p {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-six-photos img {
+    width: 25%;
+    vertical-align: top;
+}
+
+
+/*文章區塊seven buttons設定*/
+
+.section-seven {
+    width: 100%;
+    height: 600px;
+    float: left;
+    padding-top: 250px;
+    background-image: url(../img/photo-1452723312111-3a7d0db0e024.jpg);
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.section-seven-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section-seven h1 {
+    font-size: 30px;
+}
+
+.section-seven p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.section-seven-photos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.section-seven-photos img {
+    margin-right: 310px;
+}
+
+.section-seven-photos-one img {
+    width: 20px;
+    float: left;
+}
+
+.section-seven-photos-two img {
+    width: 150px;
+    border-radius: 150px;
+    float: left;
+}
+
+.section-seven-photos-three img {
+    width: 20px;
+    float: left;
+}
+
+
+/*文章區塊eight buttons設定*/
+
+.section-eight {
+    width: 100%;
+    height: 400px;
+    float: left;
+    padding-top: 250px;
+    text-align: center;
+    padding-top: 150px;
+    color: #575757;
+    font-family: sans-serif;
+}
+
+.section-eight-container {
+    width: 80%;
+    margin: 0 auto;
+
+    
+}
+
+.section-eight h1 {
+    font-size:30px;
+    
+}
+
+.section-eight-photos {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    overflow: auto;
+}
+
+.section-eight-photos img {
+width: 160px;
+    margin-right: 80px;
+}
+
+.section-eight-photos-one img {
+    float: left;
+}
+
+.section-eight-photos-two img {
+    float: left;
+}
+
+.section-eight-photos-three img {
+    float: left;
+}
+
+.section-eight-photos-four img {
+    float: left;
+}
+
+
+/*文章區塊nine buttons設定*/
+
+.section-nine {
+    width: 100%;
+    height: 300px;
+    float: left;
+    padding-top: 250px;
+    padding-top: 150px;
+    color: #575757;
+    font-family: sans-serif;
+    background-color: #e5e5e5;
+}
+
+.section-nine-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-nine h1 {
+    font-size: 20px;
+    float: left;
+    margin-right: 80px;
+}
+
+.section-nine-buttons {
+    font-size: 12px;
+    background-color: #9a77f8;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    float: left;
+}
+
+.section-nine-buttons a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+
+/*Footer最下方區塊*/
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+    background-color: #000000;
+    margin-top: 4170px;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#footer-link {
+    padding-top: 80px;
+}
+
+#footer-link p {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #b9b9b9;
+}
+
+#footer-link a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.top {
+    position: fixed;
+    top: 900px;
+    right: 80px;
+    width: 50px;
+}
+
+.top a {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: #9a9a9a;
+    border-radius: 5px;
+    padding: 10px 15px 5px;
+    text-decoration: none;
+}
+
+
+    text-decoration: none;
+}
+

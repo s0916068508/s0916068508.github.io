@@ -1,0 +1,29 @@
+* {font-family:Comic Sans MS;
+    text-align: left;
+}
+title{font-size:100px;font-weight: bold;}
+
+h1{ 
+    background-color: azure;
+    font-size:80px;
+    font-weight:bold
+}
+
+p{
+    background-color: azure;
+    font-size:20px;  
+}
+h2{color:white;
+   font-size:40px;    
+}
+
+li{
+    font-size:20px;  
+}
+
+body{background-color: #b2ffee;}
+img.align-center{
+    
+    width:960px;
+    height:720px;
+}

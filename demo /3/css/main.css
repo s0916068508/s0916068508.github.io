@@ -1,0 +1,131 @@
+/*第一層容器：背景手機圖*/
+
+.iphone {
+    margin: 50px auto;
+    width: 280px;
+    height: 560px;
+    border: 4px solid hotpink;
+    background-image: url(../images/iphone-6.jpeg);
+    background-size: 101%;
+    background-repeat: no-repeat;
+    background-position:center center;
+    border-radius: 49px
+}
+
+
+/*手機桌布 */
+
+.wallpaper{
+    width: 244px;
+    height: 436px;
+    background-image: url(../images/poko.jpg);
+    position: relative;
+    top: 58px;
+    left: 13px;
+}
+
+
+
+/*天線4邊*/
+
+.antenna-one {
+    width: 5px;
+    height: 10px;
+    background-color: pink;
+    position: relative;
+    top: -18px;
+    left: -18px;
+    float: left
+}
+
+.antenna-two {
+    width: 5px;
+    height: 10px;
+    background-color: pink;
+    position: relative;
+    top: -20px;
+    left: 19px;
+    float: right
+}
+
+.antenna-three {
+    width: 5px;
+    height: 12px;
+    background-color: pink;
+    position: relative;
+    top: 440px;
+    left: 24px;
+    float: right
+}
+
+.antenna-four {
+    width: 5px;
+    height: 12px;
+    background-color: pink;
+    position: relative;
+    top: 440px;
+    left: -23px;
+    float: left
+}
+
+
+/*靜音鍵*/
+
+.mute-button {
+
+    width: 5px;
+    height: 20px;
+    background-color: palevioletred;
+    position: relative;
+    top: 9px;
+    left: -31px;
+    float: left
+}
+
+/*音量鍵*/
+
+.volume-button-up {
+
+    width: 5px;
+    height: 42px;
+    background-color: palevioletred;
+    position: relative;
+    top: 53px;
+    left: -36px;
+    float: left
+}
+
+.volume-button-down {
+
+    width: 5px;
+    height: 42px;
+    background-color: palevioletred;
+    position: relative;
+    top: 104px;
+    left: -41px;
+    float: left
+}
+
+/*開機鍵設定*/
+.poewer-key{
+    width: 4px;
+    height: 42px;
+    background-color: palevioletred;
+    position: relative;
+    top: 50px;
+    left: 32px;
+    float: right
+}
+
+
+/*home鍵設定*/
+
+.home-button {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 440px;
+    left: 99px;
+    background-color:deeppink;
+    border-radius: 100px;
+}

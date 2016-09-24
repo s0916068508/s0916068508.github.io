@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*基本標籤 margin padding reset*/
+
+body,
+h1,
+h2,
+p,
+div,
+header,
+nav,
+footer,
+aside,
+section,
+article,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    color: #fff;
+}
+
+
+/*導覽列內容*/
+
+.container-fluid {
+    background-color: deeppink;
+    margin: 0 auto;
+}
+
+
+/*螢幕*/
+
+.jumbotron {
+    text-align: center;
+    background-image: url(img/jjj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*高度設定*/
+    height: 900px;
+    margin: 0 auto;
+    margin-top: -23px;
+}
+
+
+/*調整字型*/
+
+.jumbotron h1 {
+    margin-top: 40px;
+    color: white;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.jumbotron img {
+    max-width: 100%;
+}
+
+
+/*按鈕*/
+
+.btn {
+    margin-top: 60px;
+    background-color: deeppink;
+}
+
+.row {
+    background-color: beige;
+}
+
+
+/*中間行的字高*/
+
+.captain {
+    height: 200px;
+    text-align: center;
+}
+
+.captain h1 {
+    margin-top: auto;
+    line-height: 100px;
+}
+
+
+/*thumbnail圖片的背景色設定*/
+
+.thumbnail {
+    background-color: beige;
+}

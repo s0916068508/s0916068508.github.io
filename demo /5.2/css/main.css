@@ -1,0 +1,575 @@
+body{
+    background-color: #f2f2f2;
+}
+
+/*導覽列*/
+nav{
+    width:100%;
+    height: 480px;
+    position:absolute;
+    
+}
+/*導覽列的固定寬度*/
+.nav-container{
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+/*導覽列左邊的連結v
+hello world{
+    font-size: 80px;
+    float: left;
+    line-height: 100px;
+    font-family: serif;
+}*/
+           
+/*導覽列右邊的連結v*/
+.nav-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-container li {
+    float: right;
+}
+
+.nav-container li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*li a:hover：滑鼠移到連結上時出現的樣式*/
+.nav-container li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/*頁首header-1*/
+
+header {
+    height: 400px;
+    background-image: url(../img/slider-image-blurry-750x410.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}  
+
+.header1{
+    position: absolute;
+    width:13%;
+    background-color:red;
+    color: white;
+    top:210px;
+    left: 150px;
+}
+
+.header2{
+    position: absolute;
+    width:40%;
+    background-color:black ;
+    color: white;
+    top:300px;
+    left:150px;
+}
+
+#main{
+    margin: 0 auto;
+    width: 1120px;
+    max-width: calc(100% - 4em);
+}
+     
+/*文章區塊＊7個*/
+section{
+
+}
+section .container{
+}
+
+/*文章區塊的左邊*/
+.left{
+	width:50%
+}
+
+/*文章區塊1*/
+.section-one{
+  margin-top:3%;
+    width:800px;
+    background-color: white;
+  }
+
+/*圖*/
+.section-one-photo img {
+    width:100%;
+}
+
+/*字*/
+.section-one-word{}
+.section-one-word h1{
+ font-family: serif;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.section-one-word p {
+    font-family:serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: palevioletred;
+}
+
+
+/*文章區塊1_按鈕*/  
+.section-one-button-read_more {
+     /*按鈕的方框*/
+    width: 100px;
+    height: 40px;
+    /*按鈕的行高*/
+    line-height: 40px;
+    /*按鈕字中*/
+    text-align: center;
+    /*按鈕圓角*/
+    border-radius: 10px;
+    background-color: red;
+    /*字型*/
+    font-family: sans-serif;
+    /*位置*/
+    position: relative;
+    left: 650px;
+    top:-10px;
+}
+
+.section-one-button-read_more a {
+    color:white;
+    /*按鈕的文字不要有底線*/
+    text-decoration: none;
+    font-size: 18px;
+}
+       
+/*文章區塊2*/
+.section-two{
+    margin-top:3%;
+    width:800px;
+    background-color: white;
+}
+
+.section-two-container{}
+            
+/*圖*/   
+.section-two-photo img {
+     width:100%;
+}
+
+/*字*/
+.section-two-word{}
+.section-two-word h1{
+ font-family: serif;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.section-two-word p {
+     font-family:serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: palevioletred;
+}
+
+/*文章區塊2_按鈕*/
+.section-two-button-read_more {
+     /*按鈕的方框*/
+    width: 100px;
+    height: 40px;
+    /*按鈕的行高*/
+    line-height: 40px;
+    /*按鈕字中*/
+    text-align: center;
+    /*按鈕圓角*/
+    border-radius: 10px;
+    background-color: red;
+    /*字型*/
+    font-family: sans-serif;
+    /*位置*/
+    position: relative;
+    left: 650px;
+    top:-10px;
+}
+
+.section-two-button-read_more a {
+    color:white;
+    /*按鈕的文字不要有底線*/
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*文章區塊3*/
+.section-three{
+    margin-top:3%;
+    width:800px;
+    background-color: white;
+}
+.section-three-container{}
+            
+/*圖*/     
+.section-three-photo img {
+     width:100%;
+}
+/*字*/            
+.section-three-word{}
+.section-three-word h1{
+ font-family: serif;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.section-three-word p {
+     font-family:serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: palevioletred;
+}
+
+/*文章區塊3_按鈕*/   
+
+.section-three-button-read_more {
+     /*按鈕的方框*/
+    width: 100px;
+    height: 40px;
+    /*按鈕的行高*/
+    line-height: 40px;
+    /*按鈕字中*/
+    text-align: center;
+    /*按鈕圓角*/
+    border-radius: 10px;
+    background-color: red;
+    /*字型*/
+    font-family: sans-serif;
+    /*位置*/
+    position: relative;
+    left: 650px;
+    top:-10px;
+}
+
+.section-three-button-read_more a {
+    color:white;
+    /*按鈕的文字不要有底線*/
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*文章區塊4*/
+.section-four{
+    margin-top:3%;
+    width:800px;
+    background-color: white;
+}
+.section-four-container{}
+            
+/*圖*/
+.section-four-photo img {
+     width:100%;
+}
+            
+/*字*/
+.section-four-word{}
+.section-four-word h1{
+ font-family: serif;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.section-four-word p {
+     font-family:serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: palevioletred;
+}
+
+/*文章區塊4_按鈕*/
+.section-four-button-read_more {
+     /*按鈕的方框*/
+    width: 100px;
+    height: 40px;
+    /*按鈕的行高*/
+    line-height: 40px;
+    /*按鈕字中*/
+    text-align: center;
+    /*按鈕圓角*/
+    border-radius: 10px;
+    background-color: red;
+    /*字型*/
+    font-family: sans-serif;
+    /*位置*/
+    position: relative;
+    left: 650px;
+    top:-10px;
+}
+
+.section-four-button-read_more a {
+    color:white;
+    /*按鈕的文字不要有底線*/
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*文章區塊5*/
+.section-five{
+    margin-top:3%;
+    width:800px;
+    background-color: white;
+}
+.section-five-container{}
+/*圖*/
+.section-five-photo img {
+     width:100%;
+}
+/*字*/
+.section-five-word{}
+.section-five-word h1{
+ font-family: serif;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.section-five-word p {
+    font-family:serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: palevioletred;
+}
+/*文章區塊5*/   
+.section-five-button-read_more {
+     /*按鈕的方框*/
+    width: 100px;
+    height: 40px;
+    /*按鈕的行高*/
+    line-height: 40px;
+    /*按鈕字中*/
+    text-align: center;
+    /*按鈕圓角*/
+    border-radius: 10px;
+    background-color: red;
+    /*字型*/
+    font-family: sans-serif;
+    /*位置*/
+    position: relative;
+    left: 650px;
+    top:-10px;
+}
+
+.section-five-button-read_more a {
+    color:white;
+    /*按鈕的文字不要有底線*/
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+
+/*文章區塊6*/
+.section-six{
+    margin-top:3%;
+    width:800px;
+    background-color: white;
+}
+
+.section-six-container{}
+
+/*圖*/
+.section-six-photo img {
+     width:100%;
+}
+/*字*/
+.section-six-word{}
+.section-sixe-word h1{
+ font-family: serif;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.section-six-word p {
+     font-family:serif;
+     font-size: 20px;
+     margin-top: 20px;
+     color: palevioletred;
+}
+
+/*文章區塊6_按鈕*/
+.section-six-button-read_more {
+     /*按鈕的方框*/
+    width: 100px;
+    height: 40px;
+    /*按鈕的行高*/
+    line-height: 40px;
+    /*按鈕字中*/
+    text-align: center;
+    /*按鈕圓角*/
+    border-radius: 10px;
+    background-color: red;
+    /*字型*/
+    font-family: sans-serif;
+    /*位置*/
+    position: relative;
+    left: 650px;
+    top:-10px;
+}
+
+.section-six-button-read_more a {
+    color:white;
+    /*按鈕的文字不要有底線*/
+    text-decoration: none;
+    font-size: 18px;
+}
+        
+  
+
+/*文章右邊區塊*/
+.right{
+	float:right;
+	width:20%;
+}
+.right-container{
+    position: absolute;
+    top: 400px;
+    width:20%;
+}
+/*社群網站連結*/
+.right-container h1{}
+    
+.hot-line-all{}
+
+/*熱點1*/
+.hot-line-1{}
+/*圖*/
+.hot-line-1-photo img{}
+/*字*/ 
+.hot-line-1-word{}
+
+       
+/*熱點2*/
+.hot-line-2{}
+/*圖*/
+.hot-line-2-photo img {}
+/*字*/
+.hot-line-2-word{}
+
+         
+/*熱點3*/
+.hot-line-3{}
+/*圖*/
+.hot-line-3-photo img {}
+/*字*/
+.hot-line-3-word{}
+
+        
+/*列表清單1*/
+.right-section-list-1 {}
+.right-section-list-1-word {}
+
+       
+/*搜尋*/
+.search{}
+            
+/*搜尋方框圖*/
+.right-section-search img{}
+            
+/*搜尋按鈕*/
+.section-button-read_more{}
+            
+/*列表清單2*/
+.right-section-list-2{}
+.right-section-list-2-word{}
+
+    
+/*footer頁尾*/
+footer{
+    
+    margin-top: 16px;
+    height:420px;
+    background-color: #333333;
+    color:white;
+}
+
+.footer-1{}
+/*固定寬度*/
+.footer-1-container{}
+    
+/*左邊區塊part1*/
+.part-1{
+    width:calc(100%/3);
+    float:left;
+}
+.hot-link-all{}
+/*所有的熱點圖*/
+.hot-link{}
+
+.hot-link-photo img {
+    float:left;
+    margin:6px;
+}
+.hot-link-word{
+ }
+    
+    
+
+
+/*中邊區塊part2*/
+.part-2{
+    width:calc(100%/3);
+    float:left;
+}
+.part-2 h1{}
+.part-2 ul{
+    /*清單圓點*/
+    list-style-type: circle;
+}
+    
+/*右邊區塊part3*/
+.part-3{
+    width:calc(100%/3);
+    float:right;
+}
+.part-3 img{
+    width:80%;
+    height:80px;
+}
+/*右邊區塊part3-清單連結*/
+.part-3-item{}
+.part-3-item ul{}
+
+.part-3-item li a{
+    /*列點換行*/
+    display: list-item;
+    color: white;
+    text-align: left;
+    /*text-decoration底線*/
+    text-decoration: none;
+}
+   
+         
+/*回上層箭頭*/
+.top{ position: fixed;
+    top: 900px;
+    right: 80px;
+    width: 50px;
+}
+
+.top a {
+    color:white;
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: #9a9a9a;
+    border-radius: 5px;
+    padding: 10px 15px 5px;
+    text-decoration: none;
+}
+
+
